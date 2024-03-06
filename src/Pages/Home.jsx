@@ -1,4 +1,5 @@
 import Banner from "./Shared/Banner";
+import Deal from "./Shared/Deal";
 import Feature from "./Shared/Feature";
 import Navbar from "./Shared/Navbar";
 
@@ -8,6 +9,7 @@ const Home = () => {
             <Navbar/>
             <Banner/>
             <Feature/>
+            <Deal/>
         </div>
     );
 };
