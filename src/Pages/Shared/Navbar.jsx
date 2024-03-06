@@ -20,8 +20,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="">
-      <div className="max-w-6xl mx-auto navbar bg-white">
+    <div className="absolute top-0 z-50 w-full">
+      <div className="mx-auto max-w-6xl navbar bg-white w-full">
         {/* Left */}
         <div className="navbar-start">
           {/* Logo */}
@@ -158,8 +158,8 @@ const Navbar = () => {
               </defs>
             </svg>
 
-            <div className="absolute left-6">
-              <a className=" btn btn-ghost text-[24px] lg:text-[30px] flex flex-row gap-0">
+            <div className="absolute left-10">
+              <a href="#" className="font-semibold text-[24px] lg:text-[30px] flex flex-row gap-0">
                 <span className="text-[#FFB702]">Air</span>
                 <span className="text-[#006CE4]">Book</span>
               </a>
