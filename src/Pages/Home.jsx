@@ -1,6 +1,7 @@
 import Banner from "./Shared/Banner";
 import Deal from "./Shared/Deal";
 import Feature from "./Shared/Feature";
+import Footer from "./Shared/Footer";
 import Navbar from "./Shared/Navbar";
 import Newsletter from "./Shared/Newsletter";
 import Popular from "./Shared/Popular";
@@ -18,6 +19,7 @@ const Home = () => {
             <Testimonials/>
             <Travel/>
             <Newsletter/>
+            <Footer/>
         </div>
     );
 };
