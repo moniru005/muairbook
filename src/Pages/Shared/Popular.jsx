@@ -7,7 +7,7 @@ import american from "../../assets/images/Airlines Icon/american.png";
 
 const Popular = () => {
   return (
-    <div className="max-w-5xl mx-auto ">
+    <div className="max-w-5xl mx-auto pb-16">
       <h1 className="text-center lg:text-left text-[32px] font-[600] py-12 text-[#09182E]">
       Popular Airlines
       </h1>
