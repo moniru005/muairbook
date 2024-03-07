@@ -2,6 +2,7 @@ import Banner from "./Shared/Banner";
 import Deal from "./Shared/Deal";
 import Feature from "./Shared/Feature";
 import Navbar from "./Shared/Navbar";
+import Popular from "./Shared/Popular";
 import Travel from "./Shared/Travel";
 
 const Home = () => {
@@ -10,8 +11,9 @@ const Home = () => {
             <Navbar/>
             <Banner/>
             <Feature/>
-            <Deal/>.
+            <Deal/>
             <Travel/>
+            <Popular/>
         </div>
     );
 };
